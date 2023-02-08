@@ -19,6 +19,10 @@ class EnemyTest {
         Enemy slime = new Enemy("スライムもどき", 10, 100);
         demoHero.attack(slime);
         slime.attack(demoHero);
+        extracted(defaultHeroHp, demoHero);
+    }
+
+    private void extracted(int defaultHeroHp, Hero demoHero) {
         assertEquals(defaultHeroHp, demoHero.getHitPoint());
     }
 }
