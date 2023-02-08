@@ -9,27 +9,7 @@ package jp.ac.uryukyu.ie.e225756;
  * Created by tnal on 2016/11/13.
  */
 public class Enemy extends LivingThing{
-    private String name;
-    private int hitPoint;
-    private int attack;
-    private boolean dead;
-
-    public String getName(){
-        return this.name;
-    }
-
-    public int getHitPoint(){
-        return this.hitPoint;
-    }
-
-     public int getAttack(){
-        return this.attack;
-    }
     
-    public boolean getDead(){
-        return this.dead;
-    }
-
 
     /**
      * コンストラクタ。名前、最大HP、攻撃力を指定する。
